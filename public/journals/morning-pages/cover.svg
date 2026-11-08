@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" fill="none">
+  <!-- soft ground shadow -->
+  <ellipse cx="248" cy="520" rx="150" ry="22" fill="#4A3F3A" opacity="0.14"/>
+  <!-- page stack (right edge facets) -->
+  <polygon points="360,78 392,98 392,468 360,448" fill="#F7F0E8"/>
+  <polygon points="360,78 392,98 372,88" fill="#EDE3D4"/>
+  <polygon points="372,88 392,98 392,468 372,455" fill="#E8DFD0" opacity="0.9"/>
+  <!-- back board peek -->
+  <polygon points="118,70 140,55 360,55 340,70" fill="#B88784"/>
+  <!-- main cover body - low poly facets -->
+  <polygon points="120,72 340,72 360,92 140,92" fill="#F0D4D0"/>
+  <polygon points="120,72 140,92 140,452 120,432" fill="#B88784"/>
+  <polygon points="140,92 360,92 360,452 140,452" fill="#E8C4C0"/>
+  <!-- faceted triangles on cover -->
+  <polygon points="140,92 250,92 200,200" fill="#F0D4D0" opacity="0.85"/>
+  <polygon points="250,92 360,92 300,210" fill="#D4A8A4" opacity="0.55"/>
+  <polygon points="140,92 200,200 140,280" fill="#D4A8A4" opacity="0.35"/>
+  <polygon points="200,200 300,210 260,320 180,300" fill="#F0D4D0" opacity="0.5"/>
+  <polygon points="300,210 360,92 360,300 300,280" fill="#B88784" opacity="0.28"/>
+  <polygon points="140,280 180,300 160,400 140,390" fill="#F0D4D0" opacity="0.4"/>
+  <polygon points="180,300 260,320 240,420 160,400" fill="#D4A8A4" opacity="0.32"/>
+  <polygon points="260,320 300,280 360,300 340,430 240,420" fill="#E8C4C0" opacity="0.7"/>
+  <polygon points="140,390 160,400 140,452" fill="#B88784" opacity="0.45"/>
+  <polygon points="160,400 240,420 200,452 140,452" fill="#D4A8A4" opacity="0.25"/>
+  <polygon points="240,420 340,430 360,452 200,452" fill="#F0D4D0" opacity="0.35"/>
+  <!-- bottom edge -->
+  <polygon points="120,432 140,452 360,452 340,432" fill="#B88784"/>
+  <!-- spine facets -->
+  <polygon points="100,90 120,72 120,432 100,450" fill="#9A6E6C"/>
+  <polygon points="100,90 112,82 120,72 120,200 100,210" fill="#B88784" opacity="0.5"/>
+  <polygon points="100,210 120,200 120,340 100,350" fill="#E8C4C0" opacity="0.35"/>
+  <!-- elastic band -->
+  <polygon points="200,72 228,72 236,92 208,92" fill="#C9898A"/>
+  <polygon points="208,92 236,92 236,430 208,430" fill="#C9898A" opacity="0.92"/>
+  <polygon points="208,430 236,430 228,452 200,452" fill="#B88784"/>
+  <polygon points="208,92 236,92 222,200" fill="#F0D4D0" opacity="0.25"/>
+  <!-- corner round suggestion as facets -->
+  <polygon points="340,72 360,92 348,80" fill="#F0D4D0"/>
+  <!-- label plate low-poly -->
+  <polygon points="175,250 305,245 310,310 180,315" fill="#F7F0E8" opacity="0.92"/>
+  <polygon points="175,250 305,245 290,255 185,258" fill="#FFFFFF" opacity="0.35"/>
+  <text x="242" y="288" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#4A3F3A">Morning Pages</text>
+</svg>

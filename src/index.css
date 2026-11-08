@@ -1,0 +1,89 @@
+:root {
+  --paper: #f6efe6;
+  --paper-deep: #ebe1d4;
+  --blush: #e8c4c0;
+  --rose: #c9898a;
+  --rose-deep: #a86d6e;
+  --butter: #e8d5a3;
+  --butter-deep: #d4bc7a;
+  --sage: #c5cdb8;
+  --ink: #4a3f3a;
+  --ink-soft: #6e615a;
+  --ink-faint: rgba(74, 63, 58, 0.45);
+  --spine: #8b6b6b;
+  --shadow: rgba(74, 63, 58, 0.16);
+  --shadow-deep: rgba(74, 63, 58, 0.26);
+
+  /* ornate title (peach-pit style) + blotchy sketch accents + readable sketch body */
+  --font-title: 'Emilys Candy', cursive;
+  --font-display: 'Rubik Wet Paint', cursive;
+  --font-body: 'Shantell Sans', system-ui, sans-serif;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ink);
+  background-color: #536a80;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #536a80;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px dashed var(--rose);
+  outline-offset: 3px;
+}
