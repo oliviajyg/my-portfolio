@@ -19,4 +19,8 @@ Put image files in `public/photos/`, then point to them from `src/portfolio/data
 
 ## Deploy
 
-Push to `main`. GitHub Actions builds the portfolio and publishes it to GitHub Pages. In the repo, **Settings → Pages → Source** must be **GitHub Actions**.
+```bash
+npm run deploy
+```
+
+That builds the portfolio and publishes it to GitHub Pages. The live site is https://oliviajyg.github.io/my-portfolio/.
