@@ -1,0 +1,70 @@
+{
+  "siteTitle": "Olivia's Journals",
+  "intro": "three notebooks — open one and flip through the spreads.",
+  "journals": [
+    {
+      "id": "morning-pages",
+      "title": "Morning Pages",
+      "cover": "/journals/morning-pages/cover.svg",
+      "accent": "#E8C4C0",
+      "spreads": [
+        {
+          "src": "/journals/morning-pages/spread-01.svg",
+          "caption": "steam rising from the mug",
+          "date": "March 3"
+        },
+        {
+          "src": "/journals/morning-pages/spread-02.svg",
+          "caption": "lists that never finish",
+          "date": "March 12"
+        },
+        {
+          "src": "/journals/morning-pages/spread-03.svg",
+          "caption": "quiet light through the blinds",
+          "date": "April 2"
+        }
+      ]
+    },
+    {
+      "id": "travels",
+      "title": "Travels",
+      "cover": "/journals/travels/cover.svg",
+      "accent": "#E8D5A3",
+      "spreads": [
+        {
+          "src": "/journals/travels/spread-01.svg",
+          "caption": "ticket stubs & train windows",
+          "date": "June 14"
+        },
+        {
+          "src": "/journals/travels/spread-02.svg",
+          "caption": "maps folded the wrong way",
+          "date": "June 18"
+        },
+        {
+          "src": "/journals/travels/spread-03.svg",
+          "caption": "salt air on the page",
+          "date": "July 1"
+        }
+      ]
+    },
+    {
+      "id": "garden-notes",
+      "title": "Garden Notes",
+      "cover": "/journals/garden-notes/cover.svg",
+      "accent": "#C5CDB8",
+      "spreads": [
+        {
+          "src": "/journals/garden-notes/spread-01.svg",
+          "caption": "first sprouts along the fence",
+          "date": "April 20"
+        },
+        {
+          "src": "/journals/garden-notes/spread-02.svg",
+          "caption": "rain on leaves in pencil grey",
+          "date": "May 8"
+        }
+      ]
+    }
+  ]
+}
